@@ -1,0 +1,7 @@
+
+target 'WSMLogger', :exclusive => true do
+  pod "WSMLogger", :path => "../"
+
+  pod 'Specta', '~> 0.2.1'
+  pod 'Expecta'
+end
