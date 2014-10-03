@@ -16,7 +16,6 @@ Pod::Spec.new do |s|
                        It is specifically usefull for debugging multi-threaded code.
                        DESC
   s.homepage         = "https://github.com/wrkstrm/WSMLogger"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Cristian Monterroza" => "cmonterroza@wrkstrm.me" }
   s.source           = { :git => "https://github.com/wrkstrm/WSMLogger.git", :tag => s.version.to_s }
@@ -29,8 +28,6 @@ Pod::Spec.new do |s|
   s.resource_bundles = {
     'WSMLogger' => ['Pod/Assets/*.png']
   }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  
   s.dependency 'CocoaLumberjack'
 end
