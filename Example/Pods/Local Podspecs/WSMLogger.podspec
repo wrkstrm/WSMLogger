@@ -9,8 +9,8 @@
 
 Pod::Spec.new do |s|
   s.name             = "WSMLogger"
-  s.version          = "0.0.1"
-  s.summary          = "Super simple NSLog replacement that is better for multi-threaded code."
+  s.version          = "0.1.0"
+  s.summary          = "Super simple NSLog replacement that is better for multi-threaded code on iOS."
   s.description      = <<-DESC
                        This logger overrides the NSLog function with a macro that uses Cocoalumberjack under the hood.
                        It is specifically usefull for debugging multi-threaded code.

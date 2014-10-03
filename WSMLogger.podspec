@@ -8,7 +8,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = "WSMLogger-iOS"
+  s.name             = "WSMLogger"
   s.version          = "0.1.0"
   s.summary          = "Super simple NSLog replacement that is better for multi-threaded code on iOS."
   s.description      = <<-DESC
