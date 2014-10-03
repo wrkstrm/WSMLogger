@@ -10,7 +10,7 @@ PODS:
     - CocoaLumberjack/Core
   - Expecta (0.3.1)
   - Specta (0.2.1)
-  - WSMLogger (0.0.3):
+  - WSMLogger (0.0.5):
     - CocoaLumberjack
 
 DEPENDENCIES:
@@ -27,6 +27,6 @@ SPEC CHECKSUMS:
   CocoaLumberjack: 956d3fb98fed498a13d56499f262c975ef431c98
   Expecta: 03aabd0a89d8dea843baecb19a7fd7466a69a31d
   Specta: 9141310f46b1f68b676650ff2854e1ed0b74163a
-  WSMLogger: 96583e1918ecb6d7e3047c8bdb9c310d53dfd615
+  WSMLogger: 235b91a1a00d37ecfea24d1da6f899ceed468a65
 
 COCOAPODS: 0.34.1
