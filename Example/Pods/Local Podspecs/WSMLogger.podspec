@@ -29,4 +29,6 @@ Pod::Spec.new do |s|
     'WSMLogger' => ['Pod/Assets/*.png']
   }
 
+  s.dependency 'CocoaLumberjack', '2.0.0-beta3'
+  
 end
