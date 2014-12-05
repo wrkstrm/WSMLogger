@@ -1,20 +1,18 @@
 PODS:
-  - CocoaLumberjack (2.0.0-beta2):
-    - CocoaLumberjack/CLI
+  - CocoaLumberjack (2.0.0-beta3):
+    - CocoaLumberjack/Default (= 2.0.0-beta3)
+    - CocoaLumberjack/Extensions (= 2.0.0-beta3)
+  - CocoaLumberjack/Core (2.0.0-beta3)
+  - CocoaLumberjack/Default (2.0.0-beta3):
     - CocoaLumberjack/Core
-    - CocoaLumberjack/Extensions
-  - CocoaLumberjack/CLI (2.0.0-beta2):
-    - CocoaLumberjack/Core
-  - CocoaLumberjack/Core (2.0.0-beta2)
-  - CocoaLumberjack/Extensions (2.0.0-beta2):
-    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.0.0-beta3):
+    - CocoaLumberjack/Default
   - Expecta (0.3.1)
   - Specta (0.2.1)
-  - WSMLogger (0.1.0):
-    - CocoaLumberjack
+  - WSMLogger (0.1.1)
 
 DEPENDENCIES:
-  - CocoaLumberjack
+  - CocoaLumberjack (= 2.0.0-beta3)
   - Expecta
   - Specta (~> 0.2.1)
   - WSMLogger (from `../`)
@@ -24,9 +22,9 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  CocoaLumberjack: 956d3fb98fed498a13d56499f262c975ef431c98
+  CocoaLumberjack: 55c22a2b8bde7a29c568ab4015b5874216524d70
   Expecta: 03aabd0a89d8dea843baecb19a7fd7466a69a31d
   Specta: 9141310f46b1f68b676650ff2854e1ed0b74163a
-  WSMLogger: 474104c6519964a712719050fd0140f3f7502417
+  WSMLogger: ec6bbe8a591696b4892d053963097089fca9103a
 
-COCOAPODS: 0.34.1
+COCOAPODS: 0.35.0

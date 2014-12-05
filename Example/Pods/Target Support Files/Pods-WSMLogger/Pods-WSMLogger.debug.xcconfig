@@ -3,4 +3,5 @@ GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/CocoaLumberjack" "${PODS_ROOT}/Headers/Public/Expecta" "${PODS_ROOT}/Headers/Public/Specta" "${PODS_ROOT}/Headers/Public/WSMLogger"
 OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/CocoaLumberjack" -isystem "${PODS_ROOT}/Headers/Public/Expecta" -isystem "${PODS_ROOT}/Headers/Public/Specta" -isystem "${PODS_ROOT}/Headers/Public/WSMLogger"
 OTHER_LDFLAGS = -ObjC -l"Pods-WSMLogger-CocoaLumberjack" -l"Pods-WSMLogger-Expecta" -l"Pods-WSMLogger-Specta" -l"Pods-WSMLogger-WSMLogger" -framework "Foundation" -framework "XCTest"
+OTHER_LIBTOOLFLAGS = $(OTHER_LDFLAGS)
 PODS_ROOT = ${SRCROOT}/Pods

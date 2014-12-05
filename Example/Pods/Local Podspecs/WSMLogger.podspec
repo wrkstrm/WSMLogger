@@ -9,14 +9,13 @@
 
 Pod::Spec.new do |s|
   s.name             = "WSMLogger"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "Super simple NSLog replacement that is better for multi-threaded code on iOS."
   s.description      = <<-DESC
                        This logger overrides the NSLog function with a macro that uses Cocoalumberjack under the hood.
                        It is specifically usefull for debugging multi-threaded code.
                        DESC
   s.homepage         = "https://github.com/wrkstrm/WSMLogger"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Cristian Monterroza" => "cmonterroza@wrkstrm.me" }
   s.source           = { :git => "https://github.com/wrkstrm/WSMLogger.git", :tag => s.version.to_s }
@@ -30,7 +29,4 @@ Pod::Spec.new do |s|
     'WSMLogger' => ['Pod/Assets/*.png']
   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'CocoaLumberjack'
 end
