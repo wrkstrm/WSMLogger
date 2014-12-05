@@ -2,7 +2,8 @@
 target 'WSMLogger', :exclusive => true do
   pod "WSMLogger", :path => "../"
 
+  pod 'CocoaLumberjack', '2.0.0-beta3'
   pod 'Specta', '~> 0.2.1'
   pod 'Expecta'
-  pod 'CocoaLumberjack'
+
 end

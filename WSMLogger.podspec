@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "WSMLogger"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "Super simple NSLog replacement that is better for multi-threaded code on iOS."
   s.description      = <<-DESC
                        This logger overrides the NSLog function with a macro that uses Cocoalumberjack under the hood.
@@ -28,6 +28,5 @@ Pod::Spec.new do |s|
   s.resource_bundles = {
     'WSMLogger' => ['Pod/Assets/*.png']
   }
-  
-  s.dependency 'CocoaLumberjack'
+
 end
